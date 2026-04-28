@@ -1,3 +1,32 @@
+<!--
+================================================================
+  CS42 Study Fork — YOLOv10
+  Original repository: https://github.com/THU-MIG/yolov10
+  Original authors:    Ao Wang, Hui Chen, Lihao Liu, Kai Chen,
+                       Zijia Lin, Jungong Han, Guiguang Ding
+                       (Tsinghua University — THU-MIG)
+  Paper:               https://arxiv.org/abs/2405.14458
+  Mirrored & annotated by CS42 (https://cs42.org) for educational use.
+================================================================
+-->
+
+> ### 📌 CS42 Study Fork — Attribution
+> This is a **CS42 study mirror** of the **official YOLOv10** repository by **Ao Wang et al. (Tsinghua THU-MIG)**.
+> All algorithms, code, weights, figures, and benchmarks below are the **original authors' work** — we maintain this fork for guided walk-throughs in the CS42 *Real-Time Detection* unit.
+> - 📄 Paper: <https://arxiv.org/abs/2405.14458>
+> - 🏠 Upstream: <https://github.com/THU-MIG/yolov10>
+> - ⚖️ License: see [`LICENSE`](LICENSE) — same as upstream
+>
+> 🎓 **Suggested learning path with this fork:**
+> 1. Read the **Abstract** below and skim the paper (~10 min).
+> 2. Follow the **Installation** section to get a working environment.
+> 3. Run **Validation** with a pre-trained checkpoint (no GPU? use `yolov10n`).
+> 4. Run **Training** on a small custom dataset (Roboflow has free YOLO-format datasets).
+> 5. Try **Export** to ONNX / OpenVINO and observe latency improvements.
+> 6. Compare your numbers against the **Performance** table.
+
+---
+
 # [YOLOv10: Real-Time End-to-End Object Detection](https://arxiv.org/abs/2405.14458)
 
 
